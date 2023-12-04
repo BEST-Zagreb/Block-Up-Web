@@ -20,7 +20,8 @@ viewBox="0 0 448 512">
     c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525
     c9.372-9.373 24.568-9.373 33.941-.001z">
     </path>
-</svg>`;
+</svg>
+<h6>UP</h6>`;
 document.querySelector("body").appendChild(backToTopBtn);
 
 const bttBtnShowOnPx = 100; // amount of pixels before button is shown

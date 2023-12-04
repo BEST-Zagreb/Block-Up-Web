@@ -76,12 +76,12 @@ nav[data-scrolled] {
 }
 
 .nav__links > li[data-current-site] > a {
-  color: var(--pink-clr);
+  color: var(--orange-clr);
 }
 
 .nav__links > li:hover > a,
 .nav__links > li:focus > a {
-  color: var(--pink-clr-light);
+  color: var(--orange-clr-light);
 }
 
 .nav__links > hr {
@@ -113,7 +113,7 @@ nav[data-scrolled] {
   }
 
   .nav__mobile-menu-btn > svg > path {
-    fill: var(--pink-clr);
+    fill: var(--orange-clr);
   }
 
   .nav__links {

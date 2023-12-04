@@ -17,7 +17,7 @@
 }
 
 .predavaci-sec__btn > svg > path {
-  fill: var(--pink-clr);
+  fill: var(--orange-clr);
 
   transition: fill 300ms ease-in-out;
 
@@ -25,7 +25,7 @@
 }
 
 .predavaci-sec__btn > svg:hover > path {
-  fill: var(--pink-clr-light);
+  fill: var(--orange-clr-light);
 }
 
 .predavaci-sec__btn:disabled > svg > path {

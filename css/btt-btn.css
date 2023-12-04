@@ -9,13 +9,15 @@
   aspect-ratio: 1;
 
   backdrop-filter: blur(1px);
-  border: 2px solid var(--pink-clr-light);
-  border-radius: 50%;
+  border: 2px solid var(--blue-clr);
   cursor: pointer;
 
   z-index: 9999;
 
   transition: transform 0.3s ease-in-out;
+
+  display: grid;
+  place-items: end center;
 }
 
 @media screen and (min-width: 960px) {
@@ -29,11 +31,17 @@
   width: 70%;
 
   position: absolute;
-  top: 45%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .backToTopBtn > svg > path {
-  fill: var(--pink-clr-light);
+  fill: var(--blue-clr);
+}
+
+.backToTopBtn > h6 {
+  text-align: center;
+  color: var(--blue-clr);
+  padding-top: 1.5em;
 }

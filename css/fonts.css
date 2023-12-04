@@ -95,17 +95,33 @@
 }
 
 @font-face {
-  font-family: "Zen Tokyo Zoo";
-  src: url("../fonts/zentokyozoo-regular-webfont.woff2") format("woff2"),
-    url("../fonts/zentokyozoo-regular-webfont.woff") format("woff");
+  font-family: "Rowdies-Bold";
+  src: url("../fonts/Rowdies-Bold.woff2") format("woff2"),
+    url("../fonts/Rowdies-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rowdies-Regular";
+  src: url("../fonts/Rowdies-Regular.woff2") format("woff2"),
+    url("../fonts/Rowdies-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Train One";
-  src: url("../fonts/TrainOne-Regular.woff2") format("woff2"),
-    url("../fonts/TrainOne-Regular.woff") format("woff");
+  font-family: "Rowdies-Light";
+  src: url("../fonts/Rowdies-Light.woff2") format("woff2"),
+    url("../fonts/Rowdies-Light.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aperature";
+  src: url("../fonts/aperture2.0.woff2") format("woff2"),
+    url("../fonts/aperture2.0.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

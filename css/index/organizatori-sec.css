@@ -52,8 +52,8 @@
   width: 25%;
 
   background: linear-gradient(
-    var(--blue-clr-light),
-    var(--pink-clr-light),
+    var(--blue-clr),
+    var(--orange-clr-light),
     rgba(245, 245, 245, 0.7)
   );
 }
@@ -62,8 +62,8 @@
   width: 20%;
 
   background: linear-gradient(
-    var(--pink-clr),
-    var(--blue-clr-light),
+    var(--orange-clr),
+    var(--blue-clr),
     rgba(245, 245, 245, 0.5)
   );
 }
@@ -81,7 +81,7 @@
 
   border-radius: 1em;
 
-  background-color: var(--pink-clr);
+  background-color: var(--orange-clr);
 
   border: none;
   outline: none;
@@ -91,13 +91,13 @@
 }
 
 .org-btns-container > button[active] {
-  background-color: var(--blue-clr-light);
+  background-color: var(--blue-clr);
   cursor: default;
 }
 
 .org-btns-container > button:not([active]):hover,
 .org-btns-container > button:not([active]):focus {
-  background-color: var(--pink-clr-light);
+  background-color: var(--orange-clr-light);
 }
 
 @media screen and (max-width: 600px) {

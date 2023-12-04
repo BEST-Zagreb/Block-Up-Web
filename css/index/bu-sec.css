@@ -1,18 +1,19 @@
-/* ===== bdd-section ===== */
+/* ===== bu-section ===== */
 
-.bdd-sec__heading-container {
+.bu-sec__heading-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.bdd-sec__heading {
+.bu-sec__heading {
   background: var(--tricolor);
+  padding-top: 0.25em;
 
   font-size: min(8vw, 6rem);
 
-  font-family: "Train One";
-  font-weight: 500;
+  font-family: "Aperature";
+  font-weight: normal;
 
   background-clip: text;
   color: transparent;
@@ -23,11 +24,11 @@
   text-transform: uppercase;
 }
 
-.bdd-sec__heading-logo {
+.bu-sec__heading-logo {
   height: min(7vw, 5rem);
 }
 
-.bdd-sec__heading-hr {
+.bu-sec__heading-hr {
   margin: 0 auto;
 
   width: 60%;
@@ -39,22 +40,22 @@
   border-radius: 30%;
   background: linear-gradient(
     45deg,
-    var(--pink-clr-light),
-    var(--blue-clr-light),
-    var(--brown-clr)
+    var(--orange-clr-light),
+    var(--blue-clr),
+    var(--yellow-clr)
   );
 }
 
-.bdd-sec__text {
+.bu-sec__text {
   text-align: center;
 }
 
 @media screen and (min-width: 1600px) {
-  .bdd-sec__heading {
+  .bu-sec__heading {
     font-size: 8rem;
   }
 
-  .bdd-sec__heading-logo {
+  .bu-sec__heading-logo {
     height: 6.5rem;
   }
 }

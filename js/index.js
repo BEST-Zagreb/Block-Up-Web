@@ -43,7 +43,7 @@
 // ===== hero sections flipdown =====
 {
   // Unix timestamp (in seconds) to count down to
-  const eventStart = Math.round(new Date(2023, 9, 23, 16) / 1000); // 30th October 2023 at 4 pm in seconds
+  const eventStart = Math.round(new Date(2023, 11, 15, 16) / 1000); // 13th December 2023 at 4 pm in seconds
 
   // Set up FlipDown
   const flipdown = new FlipDown(eventStart, {
@@ -119,8 +119,8 @@
       } else {
         for (let index = 0; index < aktivnost.predavaci.length; index++) {
           if (index === 0) {
-            if(aktivnost.tema === "" || aktivnost.tema === null) {
-              aktivnostNaziv = `${aktivnost.predavaci[index].ime}`
+            if (aktivnost.tema === "" || aktivnost.tema === null) {
+              aktivnostNaziv = `${aktivnost.predavaci[index].ime}`;
             } else {
               aktivnostNaziv = `${aktivnost.predavaci[index].ime} - ${aktivnostNaziv}`;
             }
@@ -213,7 +213,6 @@
       predavaciCarouselBtnRight.setAttribute("disabled", "");
     }
   }
-  
 
   async function initializeRasporedAndPredavaciSection() {
     try {
@@ -229,7 +228,7 @@
       const predavaciCarouselBtnRight = document.querySelector(
         ".predavaci-sec__btn-right"
       );
-      
+
       predavaciCarouselBtnLeft.setAttribute("disabled", "");
 
       predavaciCarouselBtnLeft.addEventListener("click", () => {
@@ -438,7 +437,7 @@
   initializeOrgTim();
 }
 
-// ===== BDD partners section =====
+// ===== BU partners section =====
 {
   const partnerTemplate = document.querySelector("[data-partner-template]");
   const partnerImgsContainer = document.querySelector(
@@ -709,3 +708,7 @@
 
   initializeKontaktSection();
 }
+
+// ===== footer  =====
+const footerYearEl = document.querySelector(".footer__year");
+footerYearEl.textContent = new Date().getFullYear();

@@ -61,7 +61,7 @@
 }
 
 .kontakt-sec__card-function {
-  color: var(--brown-clr);
+  color: var(--yellow-clr);
   font-size: 1em;
 }
 
@@ -85,19 +85,19 @@
 .kontakt-sec__card:nth-of-type(3n -2) .kontakt-sec__card-function,
 .kontakt-sec__card:nth-of-type(3n -2) .kontakt-sec__card-link:hover,
 .kontakt-sec__card:nth-of-type(3n -2) .kontakt-sec__card-link:focus {
-  color: var(--brown-clr);
+  color: var(--blue-clr);
 }
 
 .kontakt-sec__card:nth-of-type(3n - 1) .kontakt-sec__card-function,
 .kontakt-sec__card:nth-of-type(3n - 1) .kontakt-sec__card-link:hover,
 .kontakt-sec__card:nth-of-type(3n - 1) .kontakt-sec__card-link:focus {
-  color: var(--blue-clr-light);
+  color: var(--orange-clr-light);
 }
 
 .kontakt-sec__card:nth-of-type(3n) .kontakt-sec__card-function,
 .kontakt-sec__card:nth-of-type(3n) .kontakt-sec__card-link:hover,
 .kontakt-sec__card:nth-of-type(3n) .kontakt-sec__card-link:focus {
-  color: var(--pink-clr-light);
+  color: var(--yellow-clr);
 }
 
 @media screen and (max-width: 960px) {

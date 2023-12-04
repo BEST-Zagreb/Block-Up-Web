@@ -7,22 +7,20 @@
 
 :root {
   /* colors depend on project */
-  --blue-clr: #3c6f9b;
-  --blue-clr-lighter: #578ab7;
-  --blue-clr-light: #72b1e8;
-  --blue-clr-dark: #17354f;
-  --brown-clr: #b5806b;
-  --pink-clr: #ba67ab;
-  --pink-clr-light: #ffa6ef;
-  --pink-clr-dark: #6e3163;
+  --blue-clr: #87dcf8;
+  --blue-clr-darker: #5cb8d6;
+  --orange-clr: #ff914d;
+  --orange-clr-light: #ffbd59;
+  --yellow-clr: #ffde59;
+  --gray-clr: #d9d9d9;
   --white: white;
   --whitesmoke: whitesmoke;
 
   --tricolor: linear-gradient(
     45deg,
-    var(--pink-clr),
+    var(--orange-clr),
     var(--blue-clr),
-    var(--brown-clr)
+    var(--yellow-clr)
   );
 
   --text-clr: #666666;
@@ -69,7 +67,7 @@ h3 {
   font-size: min(5vw, 2rem);
 
   text-transform: uppercase;
-  color: var(--blue-clr);
+  color: var(--orange-clr);
 }
 
 p,
@@ -99,12 +97,12 @@ li {
 }
 
 a {
-  color: var(--pink-clr);
+  color: var(--blue-clr);
 }
 
 a:hover,
 a:focus {
-  color: var(--pink-clr-light);
+  color: var(--blue-clr-darker);
 }
 
 .hidden {
