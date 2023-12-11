@@ -559,7 +559,9 @@
       partnerLevel.forEach((partner) => {
         const partnerElement =
           partnerTemplate.content.cloneNode(true).children[0];
-        partnerElement.setAttribute("href", partner.linkUrl);
+        if (partner.linkUrl)
+          partnerElement.setAttribute("href", partner.linkUrl);
+        else partnerElement.removeAttribute("href");
         partnerElement.firstElementChild.setAttribute("src", partner.imgUrl);
         partnerElement.firstElementChild.setAttribute(
           "alt",

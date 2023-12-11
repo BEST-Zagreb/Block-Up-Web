@@ -1,36 +1,55 @@
 {
-  "zlatni": [
+  "platina1": [
     {
-      "naziv": "Netgen",
-      "imgUrl": "./img/partners/BU/2023/netgen.png",
-      "linkUrl": "https://netgen.io/"
-    }
-  ],
-  "srebrni": [
-    {
-      "naziv": "Macan",
-      "imgUrl": "./img/partners/BU/2023/macan.png",
-      "linkUrl": "https://macan.hr/"
-    }
-  ],
-  "broncani": [
-    {
-      "naziv": "Stablo znanja",
-      "imgUrl": "./img/partners/BU/2023/stablo_znanja.png",
-      "linkUrl": "https://stabloznanja.com/"
-    }
-  ],
-  "akademski": [],
-  "materijalni": [
-    {
-      "naziv": "Muzej iluzija",
-      "imgUrl": "./img/partners/BU/2023/muzej_iluzija_2.png",
-      "linkUrl": "https://muzejiluzija.com/"
+      "naziv": "RZLT",
+      "imgUrl": "./img/partners/BU/2023/ICP Hub - Logo/black.png",
+      "linkUrl": "https://rzlt.io/"
     },
     {
-      "naziv": "The old lock up escape room",
-      "imgUrl": "./img/partners/BU/2023/the_old_lock_up_escape_room.png",
-      "linkUrl": "https://www.theoldlockup.com/"
+      "naziv": "Ithaca",
+      "imgUrl": "./img/partners/BU/2023/Astar/Astar_landscape.svg",
+      "linkUrl": null
+    }
+  ],
+  "platina2": [
+    {
+      "naziv": "Thespian",
+      "imgUrl": "./img/partners/BU/2023/Thespian/ThespianLogo_Transparent2.svg",
+      "linkUrl": "https://thespian.hr/"
+    },
+    {
+      "naziv": "Koios",
+      "imgUrl": "./img/partners/BU/2023/koios.svg",
+      "linkUrl": "https://koios.hr/"
+    },
+    {
+      "naziv": "Neuralab",
+      "imgUrl": "./img/partners/BU/2023/Neuralab_dark.svg",
+      "linkUrl": "https://www.neuralab.net/"
+    }
+  ],
+  "regular": [
+    {
+      "naziv": "NEAR Balkans Hub",
+      "imgUrl": "./img/partners/BU/2023/NEAR Balkans Hub/Black/near balkans logo_black-v2.svg",
+      "linkUrl": "https://nearbalkans.org/"
+    },
+    {
+      "naziv": "Ideja na kvadrat",
+      "imgUrl": "./img/partners/BU/2023/Ideja_na_kvadrat.png",
+      "linkUrl": "https://www.idejanakvadrat.hr/"
+    }
+  ],
+  "prostor": [
+    {
+      "naziv": "BIRD Incubator",
+      "imgUrl": "./img/partners/BU/2023/bird-incubator.svg",
+      "linkUrl": "https://bird-incubator.com/"
+    },
+    {
+      "naziv": "Stablo znanja",
+      "imgUrl": "./img/partners/BU/2023/Stablo_znanja.png",
+      "linkUrl": "https://stabloznanja.com/"
     }
   ]
 }
