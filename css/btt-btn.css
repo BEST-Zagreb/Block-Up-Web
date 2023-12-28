@@ -24,7 +24,7 @@
   }
 }
 
-.backToTopBtn svg {
+.backToTopBtn > img {
   width: 70%;
 
   position: absolute;
@@ -33,11 +33,7 @@
   transform: translate(-50%, -50%);
 }
 
-.backToTopBtn svg > path {
-  fill: var(--blue-clr);
-}
-
-.backToTopBtn h6 {
+.backToTopBtn > h6 {
   text-align: center;
   color: var(--blue-clr);
   padding-top: 1.5em;
