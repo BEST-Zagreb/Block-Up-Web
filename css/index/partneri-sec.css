@@ -32,7 +32,7 @@
   gap: min(4rem, 8vw);
 
   margin-inline: auto;
-  padding-block: min(1vw, 1.5rem);
+  margin-block: min(1vw, 1.5rem);
 }
 
 .partneri-sec__imgs-container > div:nth-of-type(1) {
@@ -51,11 +51,13 @@
 
 .partneri-sec__imgs-container > div > a {
   margin-inline: auto;
+  width: 100%;
 }
 
 .partneri-sec__imgs-container > div > a > img {
   width: 100%;
   height: min(8vw, 8rem);
+  object-fit: contain;
 
   transition: transform 0.3s ease-in-out;
 }

@@ -669,16 +669,25 @@
       />
     </svg>
 
-    <section class="faq-sec box-content" id="faq">
-      <h3>Često postavljena pitanja</h3>
+    <template data-partner-template>
+      <a href="" target="_blank">
+        <img src="" alt="" loading="lazy" title="" />
+      </a>
+    </template>
 
-      <div class="faq-sec__accordions-container">
-        <template data-faq-template>
-          <details class="faq-sec__accordion">
-            <summary class="faq-sec__question"><p></p></summary>
-            <p class="faq-sec__answer"></p>
-          </details>
-        </template>
+    <section class="partneri-sec box-content" id="partneri">
+      <h3>Partneri projekta</h3>
+
+      <div class="partneri-sec__imgs-container">
+        <div class="partneri-sec__imgs-background"></div>
+      </div>
+    </section>
+
+    <section class="godisnji-partneri-sec box-content" id="godisnji-partneri">
+      <h3>Godišnji partneri</h3>
+
+      <div class="godisnji-partneri-sec__slider-wrapper">
+        <div class="godisnji-partneri-sec__slider"></div>
       </div>
     </section>
 
@@ -763,25 +772,16 @@
       />
     </svg>
 
-    <template data-partner-template>
-      <a href="" target="_blank">
-        <img src="" alt="" loading="lazy" title="" />
-      </a>
-    </template>
+    <section class="faq-sec box-content" id="faq">
+      <h3>Često postavljena pitanja</h3>
 
-    <section class="partneri-sec box-content" id="partneri">
-      <h3>Partneri projekta</h3>
-
-      <div class="partneri-sec__imgs-container">
-        <div class="partneri-sec__imgs-background"></div>
-      </div>
-    </section>
-
-    <section class="godisnji-partneri-sec box-content" id="godisnji-partneri">
-      <h3>Godišnji partneri</h3>
-
-      <div class="godisnji-partneri-sec__slider-wrapper">
-        <div class="godisnji-partneri-sec__slider"></div>
+      <div class="faq-sec__accordions-container">
+        <template data-faq-template>
+          <details class="faq-sec__accordion">
+            <summary class="faq-sec__question"><p></p></summary>
+            <p class="faq-sec__answer"></p>
+          </details>
+        </template>
       </div>
     </section>
 
