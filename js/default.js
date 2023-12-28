@@ -1,10 +1,9 @@
 // ===== progress bar =====
 const progressBarElement = document.createElement("div");
-progressBarElement.classList.add("progress-bar");
+progressBarElement.classList.add("progress-bar", "hidden");
 document.querySelector("body").appendChild(progressBarElement);
-const progBarShowOnPx = 10; // amount of pixels before bar is shown
 
-// ===== baco to top button =====
+// ===== back to top button =====
 const backToTopBtn = document.createElement("div");
 backToTopBtn.classList.add("backToTopBtn", "hidden");
 backToTopBtn.setAttribute("title", "Scroll to top"); // tooltip
@@ -24,20 +23,14 @@ viewBox="0 0 448 512">
 <h6>UP</h6>`;
 document.querySelector("body").appendChild(backToTopBtn);
 
-const bttBtnShowOnPx = 100; // amount of pixels before button is shown
+backToTopBtn.addEventListener("click", () => {
+  document.body.scrollIntoView();
+});
 
 // ===== background paralax =====
 const backgroundElement = document.createElement("div");
 backgroundElement.classList.add("background-image");
 document.querySelector("body").appendChild(backgroundElement);
-
-const scrollContainer = () => {
-  return document.documentElement || document.body;
-};
-
-backToTopBtn.addEventListener("click", () => {
-  document.body.scrollIntoView();
-});
 
 // ===== nav =====
 const nav = document.querySelector("nav");
@@ -87,28 +80,6 @@ window.addEventListener("click", function (e) {
   }
 });
 
-document.addEventListener("scroll", () => {
-  const scrolledPercentage =
-    (scrollContainer().scrollTop /
-      (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
-    100;
-
-  progressBarElement.style.width = scrolledPercentage + "%";
-
-  if (scrollContainer().scrollTop > progBarShowOnPx)
-    progressBarElement.classList.remove("hidden");
-  else progressBarElement.classList.add("hidden");
-
-  if (scrollContainer().scrollTop > bttBtnShowOnPx)
-    backToTopBtn.classList.remove("hidden");
-  else backToTopBtn.classList.add("hidden");
-
-  backgroundElement.style.top = -scrolledPercentage / 4 + "%";
-  backgroundElement.style.left = -scrolledPercentage / 2 + "%";
-
-  nav.setAttribute("data-scrolled", "true");
-});
-
 // sections intersection observers
 const navIntersectionListItems = document.querySelectorAll(".nav__links > li");
 let currentListItem = null;
@@ -149,3 +120,36 @@ document.querySelectorAll("section").forEach((section) => {
 // ===== footer copyright year =====
 const footerYearEl = document.querySelector(".footer__year");
 footerYearEl.textContent = new Date().getFullYear();
+
+// ===== scroll based interactions =====
+document.addEventListener("scroll", () => {
+  const scrollContainer = document.documentElement || document.body;
+
+  const scrolledPercentage =
+    (scrollContainer.scrollTop /
+      (scrollContainer.scrollHeight - scrollContainer.clientHeight)) *
+    100;
+
+  // progress bar
+  const progressBarShowOnPx = 10; // amount of pixels before progress bar is shown
+
+  progressBarElement.style.width = scrolledPercentage + "%";
+
+  if (scrollContainer.scrollTop > progressBarShowOnPx)
+    progressBarElement.classList.remove("hidden");
+  else progressBarElement.classList.add("hidden");
+
+  // back to top button
+  const bttBtnShowOnPx = 100; // amount of pixels before button is shown
+
+  if (scrollContainer.scrollTop > bttBtnShowOnPx)
+    backToTopBtn.classList.remove("hidden");
+  else backToTopBtn.classList.add("hidden");
+
+  // background paralax
+  backgroundElement.style.top = -scrolledPercentage / 4 + "%";
+  backgroundElement.style.left = -scrolledPercentage / 2 + "%";
+
+  // nav
+  nav.setAttribute("data-scrolled", "true");
+});
