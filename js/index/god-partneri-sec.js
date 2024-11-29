@@ -94,12 +94,32 @@ function annualPartnersCarouselSlide() {
   });
 }
 
+function addAnnualPartner(data) {
+  data.map((partner) => {
+    const partnerElement = document.querySelector(
+      ".godisnji-partneri-i-sec__image-container"
+    );
+    partnerElement.setAttribute("href", partner.linkUrl);
+    partnerElement.firstElementChild.setAttribute("src", partner.imgUrl);
+    partnerElement.firstElementChild.setAttribute(
+      "alt",
+      partner.naziv + " partner logo"
+    );
+    partnerElement.firstElementChild.setAttribute("title", partner.naziv);
+    document
+      .querySelector(".godisnji-partneri-i-sec__image")
+      .append(partnerElement);
+    console.log("here!");
+  });
+}
+
 async function initializeAnnualPartners() {
   try {
     const response = await fetch("./data/godisnjiPartneri.json");
     const data = await response.json();
 
-    addAnnualPartners(data);
+    addAnnualPartner(data);
+    //addAnnualPartners(data);
     annualPartnersCarouselSlide();
   } catch (error) {
     console.error(error);
