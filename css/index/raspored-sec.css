@@ -22,12 +22,12 @@
 .raspored-sec__th-row > th {
   font-size: min(4.25vw, 1.25rem);
 
-  background-color: var(--yellow-clr);
+  background-color: var(--navy-clr);
   border-color: var(--whitesmoke);
 }
 
 .raspored-sec__table td {
-  border-color: var(--orange-clr);
+  border-color: var(--navy-clr);
 }
 
 .raspored-sec__th-row > th > h4 {

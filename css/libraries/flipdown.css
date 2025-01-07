@@ -15,24 +15,25 @@
   .rotor-group:nth-child(n + 2):nth-child(-n + 3):before,
 .flipdown.flipdown__theme-dark
   .rotor-group:nth-child(n + 2):nth-child(-n + 3):after {
-  background-color: var(--blue-clr-darker);
+  background-color: var(--gray);
 }
 /* Rotor tops */
 .flipdown.flipdown__theme-dark .rotor,
 .flipdown.flipdown__theme-dark .rotor-top,
 .flipdown.flipdown__theme-dark .rotor-leaf-front {
-  color: #ffffff;
-  background-color: var(--blue-clr-darker);
+  color: #000000;
+  background-color: var(--gray);
 }
 /* Rotor bottoms */
 .flipdown.flipdown__theme-dark .rotor-bottom,
 .flipdown.flipdown__theme-dark .rotor-leaf-rear {
-  color: #efefef;
-  background-color: var(--blue-clr);
+  color: #000000;
+  background-color: #efefef;
 }
 /* Hinge */
 .flipdown.flipdown__theme-dark .rotor:after {
-  border-top: solid 1px var(--blue-clr-darker);
+  /* border-top: solid 1px var(--gray); */
+  border-top: none; /* no hinge */
 }
 
 /********** Theme: light **********/

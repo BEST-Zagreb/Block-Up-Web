@@ -15,12 +15,22 @@
   --gray-clr: #d9d9d9;
   --white: white;
   --whitesmoke: whitesmoke;
+  --gray: gray;
+  --navy-clr: rgb(87, 123, 255);
+
+
 
   --tricolor: linear-gradient(
     45deg,
     var(--orange-clr),
     var(--blue-clr),
     var(--yellow-clr)
+  );
+
+  --duocolor-dark: linear-gradient(
+    45deg,
+    #000,
+    var(--gray)
   );
 
   --text-clr: #666666;
@@ -67,7 +77,7 @@ h3 {
   font-size: min(5vw, 2rem);
 
   text-transform: uppercase;
-  color: var(--orange-clr);
+  color: var(--navy-clr);
 }
 
 p,
@@ -97,12 +107,12 @@ li {
 }
 
 a {
-  color: var(--blue-clr);
+  color: var(--blue-clr-darker);
 }
 
 a:hover,
 a:focus {
-  color: var(--blue-clr-darker);
+  color: var(--navy-clr);
 }
 
 .hidden {

@@ -1,0 +1,25 @@
+{
+  "platina1": [
+  ],
+  "platina2": [
+  ],
+  "regular": [
+    {
+      "naziv": "Alice in Blockhchains",
+      "imgUrl": "./img/partners/project/2025/Alice in Blockchains_lopotip/Alice_in_Blockchains_lopotip/AIB-logo-black.svg",
+      "linkUrl": "https://www.aliceinblockchains.io/"
+    },
+    {
+      "naziv": "Superteam Balkan",
+      "imgUrl": "./img/partners/project/2025/Superteam_balkan.jpeg",
+      "linkUrl": "https://blkn.superteam.fun/"
+    }
+  ],
+  "prostor": [
+    {
+      "naziv": "BIRD Incubator",
+      "imgUrl": "./img/partners/project/2023/bird-incubator.svg",
+      "linkUrl": "https://bird-incubator.com/"
+    }
+  ]
+}

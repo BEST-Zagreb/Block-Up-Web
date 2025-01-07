@@ -1,0 +1,68 @@
+[
+  {
+    "datum": "13.12.2023.",
+    "vrijeme": "16:00-16:45",
+    "tema": "Službeno otvaranje",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  },
+  {
+    "datum": "13.12.2023.",
+    "vrijeme": "17:00-18:00",
+    "tema": "Uvod i pregled Web3 Ecosystema kroz ICP & Napravite svoju prvu aplikaciju na ICP-u",
+    "tvrtka": "ICP",
+    "predavaci": [
+      { "ime": "Filip Brzica", "imgUrl": "" },
+      { "ime": "Andrej Saric", "imgUrl": "" }
+    ]
+  },
+  {
+    "datum": "13.12.2023.",
+    "vrijeme": "18:00-19:00",
+    "tema": "Uvod i mogućnosti NEAR Protocola",
+    "tvrtka": "NEAR Balkan Hub",
+    "predavaci": [{ "ime": "Alen Meštrov", "imgUrl": "" }]
+  },
+  {
+    "datum": "13.12.2023.",
+    "vrijeme": "19:00-20:00",
+    "tema": "Napravite svoju decentralizranu poslovnu karticu na Open Web-u",
+    "tvrtka": "NEAR Balkan Hub",
+    "predavaci": [{ "ime": "Alen Meštrov", "imgUrl": "" }]
+  },
+  {
+    "datum": "14.12.2023.",
+    "vrijeme": "15:00-16:00",
+    "tema": "Osnovni koncepti rada blockchain aplikacija i trendovi",
+    "tvrtka": "Ithaca",
+    "predavaci": [{ "ime": "Ivan Andrišek", "imgUrl": "" }]
+  },
+  {
+    "datum": "14.12.2023.",
+    "vrijeme": "16:15-18:15",
+    "tema": "Potencijalne primjene NFTeva u stvarnom svijetu",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "Thespian", "imgUrl": "" }]
+  },
+  {
+    "datum": "14.12.2023.",
+    "vrijeme": "18:30-19:00",
+    "tema": "TradFi na blockchainu",
+    "tvrtka": "KOIOS",
+    "predavaci": [{ "ime": "Frane Mušić", "imgUrl": "" }]
+  },
+  {
+    "datum": "15.12.2023.",
+    "vrijeme": "17:00-18:00",
+    "tema": "Panel - Rasprava",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  },
+  {
+    "datum": "15.12.2023.",
+    "vrijeme": "18:15-19:00",
+    "tema": "Službeno zatvaranje",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  }
+]

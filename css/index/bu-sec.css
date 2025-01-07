@@ -7,7 +7,7 @@
 }
 
 .bu-sec__heading {
-  background: var(--tricolor);
+  background: var(--duocolor-dark);
   padding-top: 0.25em;
 
   font-size: min(8vw, 6rem);
@@ -40,12 +40,7 @@
 
   border: none;
   border-radius: 30%;
-  background: linear-gradient(
-    45deg,
-    var(--orange-clr-light),
-    var(--blue-clr),
-    var(--yellow-clr)
-  );
+  background: var(--duocolor-dark)
 }
 
 .bu-sec__text {

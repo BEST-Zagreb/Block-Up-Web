@@ -3,8 +3,8 @@
   border-radius: 0 0 0.25rem 0.25rem;
   background: linear-gradient(
       45deg,
-      var(--yellow-clr),
-      var(--orange-clr-light),
+      var(--gray),
+      var(--whitesmoke),
       var(--blue-clr),
       var(--yellow-clr)
     )
