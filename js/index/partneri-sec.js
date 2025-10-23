@@ -21,6 +21,7 @@ function addProjectPartners(data) {
         "title",
         partner.naziv + ""
       );
+      if (partner.scale) partnerElement.style.transform = "scale(" + partner.scale + ")";
       partnerRow.append(partnerElement);
     });
     partnerImgsContainer.append(partnerRow);

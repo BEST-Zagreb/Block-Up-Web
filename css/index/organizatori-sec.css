@@ -53,7 +53,7 @@
 
   background: linear-gradient(
     var(--blue-clr),
-    var(--orange-clr-light),
+    var(--blue-clr),
     rgba(245, 245, 245, 0.7)
   );
 }
@@ -62,7 +62,7 @@
   width: 20%;
 
   background: linear-gradient(
-    var(--orange-clr),
+    var(--blue-clr),
     var(--blue-clr),
     rgba(245, 245, 245, 0.5)
   );
@@ -75,7 +75,7 @@
 }
 
 .org-btns-container > button {
-  width: 8%;
+  width: 25px;
   height: 1.5em;
   margin-inline: 0.5%;
 
