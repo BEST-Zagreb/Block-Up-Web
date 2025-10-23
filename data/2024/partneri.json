@@ -1,0 +1,36 @@
+{
+  "platina1": [
+  ],
+  "platina2": [
+    {
+      "naziv": "CS Computer Systems",
+      "imgUrl": "./img/partners/project/2025/CS-logo.png",
+      "linkUrl": "https://cs.hr/"
+    }
+  ],
+  "regular": [
+    {
+      "naziv": "Alice in Blockhchains",
+      "imgUrl": "./img/partners/project/2025/Alice in Blockchains_lopotip/Alice_in_Blockchains_lopotip/AIB-logo-black.svg",
+      "linkUrl": "https://www.aliceinblockchains.io/"
+    },
+    {
+      "naziv": "Superteam Balkan",
+      "imgUrl": "./img/partners/project/2025/Superteam_balkan.jpeg",
+      "linkUrl": "https://blkn.superteam.fun/"
+    },
+    {
+      "naziv": "Endemic",
+      "imgUrl": "./img/partners/project/2025/Endemic Marketplace from Artists for Communities Logo-04.svg",
+      "linkUrl": "https://endemic.app/",
+      "scale": 2
+    }
+  ],
+  "prostor": [
+    {
+      "naziv": "BIRD Incubator",
+      "imgUrl": "./img/partners/project/2023/bird-incubator.svg",
+      "linkUrl": "https://bird-incubator.com/"
+    }
+  ]
+}

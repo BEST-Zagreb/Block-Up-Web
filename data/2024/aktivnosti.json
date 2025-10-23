@@ -1,0 +1,58 @@
+[
+  {
+    "datum": "14.1.2025.",
+    "vrijeme": "16:00-17:00",
+    "tema": "Svečano otvorenje (D152)",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  },
+  {
+    "datum": "14.1.2025.",
+    "vrijeme": "17:15-18:00",
+    "tema": "Uloga Solane u rastućem Web3 svijetu (D152)",
+    "tvrtka": "Superteam Balkan",
+    "predavaci": [{ "ime": "Željko Kovačević", "imgUrl": "" }]
+  },
+  {
+    "datum": "14.1.2025.",
+    "vrijeme": "18:15-19:15",
+    "tema": "Blockchain tehnologija u lancima opskrbe (D260)",
+    "tvrtka": "CS Computer Systems",
+    "predavaci": [{ "ime": "Ivan Hačić", "imgUrl": "" }]
+  },
+  {
+    "datum": "15.1.2025.",
+    "vrijeme": "16:15-18:15",
+    "tema": "Uvod u Bitcoin i Ethereum (A111)",
+    "tvrtka": "Institut Ruđer Bošković / University of Zurich",
+    "predavaci": [{ "ime": "Matija Piškorec", "imgUrl": "" }]
+  },
+  {
+    "datum": "15.1.2025.",
+    "vrijeme": "18:30-19:00",
+    "tema": "Regulacija trgovanja kriptovalutama (A111)",
+    "tvrtka": "Alice in Blockchains",
+    "predavaci": [{ "ime": "Morana Vukić Perak", "imgUrl": "" }]
+  },
+  {
+    "datum": "16.1.2025.",
+    "vrijeme": "16:00-16:45",
+    "tema": "Uloga NFT tehnologije sa posebnim akcentom na korištenje u digitalnoj umjetnosti na primjeru Endemica (BIRD inkubator)",
+    "tvrtka": "Stone Block",
+    "predavaci": [{ "ime": "Stipe Plejić", "imgUrl": "" }]
+  },
+  {
+    "datum": "16.1.2025.",
+    "vrijeme": "17:00-18:00",
+    "tema": "Panel rasprava (BIRD inkubator)",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  },
+  {
+    "datum": "16.1.2025.",
+    "vrijeme": "18:30-19:00",
+    "tema": "Svečano zatvaranje (BIRD inkubator)",
+    "tvrtka": "",
+    "predavaci": [{ "ime": "", "imgUrl": "" }]
+  }
+]
