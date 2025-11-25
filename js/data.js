@@ -12,7 +12,7 @@ async function loadSchedule() {
     if (!container) return;
 
     try {
-        const response = await fetch('../data/2025/aktivnosti.json');
+        const response = await fetch('../data/2025_2/aktivnosti.json');
         const activities = await response.json();
 
         if (activities && activities.length > 0) {
@@ -74,7 +74,7 @@ async function loadPartners() {
 
     try {
         // Load project partners
-        const projectResponse = await fetch('../data/2025/partneri.json');
+        const projectResponse = await fetch('../data/2025_2/partneri.json');
         const projectPartners = await projectResponse.json();
 
         if (partnersGrid) {
@@ -164,7 +164,7 @@ async function loadTeam() {
     if (!teamGrid) return;
 
     try {
-        const response = await fetch('../data/2025/organizacijskiTim.json');
+        const response = await fetch('../data/2025_2/organizacijskiTim.json');
         const team = await response.json();
 
         if (team && team.length > 0) {
