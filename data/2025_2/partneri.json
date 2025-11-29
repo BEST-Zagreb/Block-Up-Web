@@ -1,7 +1,29 @@
 {
-  "platina1": [
+  "platina1": [],
+  "platina2": [],
+  "regular": [
+    {
+      "naziv": "Studio Dorti",
+      "imgUrl": "./img/partners/project/2025_2/Logo-Studio_Dorti.jpg",
+      "linkUrl": "https://studio-dorti.hr/",
+      "dark": false
+    },
+    {
+      "naziv": "Sveučilišna tiskara",
+      "imgUrl": "./img/partners/project/2025_2/SVEUCILISNA TISKARA LOGO.png",
+      "linkUrl": "https://www.sveucilisnatiskara.hr/"
+    },
+    {
+      "naziv": "SC",
+      "imgUrl": "./img/partners/project/2025_2/sc_logo.png",
+      "linkUrl": "https://www.sczg.unizg.hr/"
+    },
+    {
+      "naziv": "FSB",
+      "imgUrl": "./img/partners/project/2025_2/FSB_logo.jpg",
+      "linkUrl": "https://www.fsb.unizg.hr/index.php"
+    }
   ],
-  "platina2": [  ],
   "prostor": [
     {
       "naziv": "FER",

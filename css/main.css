@@ -809,13 +809,16 @@ a {
 
 .partner-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
 .partner-card:hover::before {
     opacity: 1;
 }
 
+.partner-dark {
+    background:rgba(0, 0, 0, 0.15)!important;
+}
 /* Partner Tiers */
 .partner-platina1 {
     grid-column: span 2;

@@ -117,8 +117,8 @@ async function loadPartners() {
 
 function createPartnerCard(partner, tier) {
     const card = document.createElement('div');
-    card.className = `partner-card partner-${tier}`;
-
+    card.className = `partner-card partner-${tier} ${partner.dark ? 'partner-dark':''}`;
+    
     if (partner.linkUrl) {
         const link = document.createElement('a');
         link.href = partner.linkUrl;
