@@ -1,7 +1,18 @@
 {
   "platina1": [],
-  "platina2": [],
+  "platina2": [
+    {
+      "naziv": "Koios",
+      "imgUrl": "./img/partners/project/2025_2/logo_koios_nt.svg",
+      "linkUrl": "https://koios.hr/"
+    }
+  ],
   "regular": [
+    {
+      "naziv": "Dukat",
+      "imgUrl": "./img/partners/project/2025_2/Dukat logo new.png",
+      "linkUrl": "https://www.dukat.hr/"
+    },
     {
       "naziv": "Studio Dorti",
       "imgUrl": "./img/partners/project/2025_2/Logo-Studio_Dorti.jpg",
