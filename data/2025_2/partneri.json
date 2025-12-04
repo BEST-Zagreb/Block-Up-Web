@@ -5,6 +5,11 @@
       "naziv": "Koios",
       "imgUrl": "./img/partners/project/2025_2/logo_koios_nt.svg",
       "linkUrl": "https://koios.hr/"
+    },
+    {
+      "naziv": "ASTAR",
+      "imgUrl": "./img/partners/project/2025_2/Astar_Color_Black.png",
+      "linkUrl": "https://astar.network/"
     }
   ],
   "regular": [
