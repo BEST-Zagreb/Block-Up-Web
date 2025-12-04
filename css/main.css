@@ -850,6 +850,13 @@ a {
     border: 2px solid var(--color-accent-blue);
 }
 
+.partner-media {
+    min-height: 100px;
+    max-width: 200px;
+    background: #ffffff;
+    justify-self: center;
+}
+
 .partner-link {
     display: flex;
     align-items: center;

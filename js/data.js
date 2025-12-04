@@ -70,6 +70,7 @@ async function loadSchedule() {
 // Load Partners
 async function loadPartners() {
     const partnersGrid = document.getElementById('partnersGrid');
+    const mediaPartners = document.getElementById('mediaPartners');
     const annualPartners = document.getElementById('annualPartners');
 
     try {
@@ -96,6 +97,15 @@ async function loadPartners() {
                         partnersGrid.appendChild(card);
                     });
                 }
+            });
+        }
+
+        // Load media partners
+        if (mediaPartners && projectPartners.medijskiPokrovitelji && projectPartners.medijskiPokrovitelji.length > 0) {
+            mediaPartners.innerHTML = '';
+            projectPartners.medijskiPokrovitelji.forEach(partner => {
+                const card = createPartnerCard(partner, 'media');
+                mediaPartners.appendChild(card);
             });
         }
 

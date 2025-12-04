@@ -46,5 +46,12 @@
       "imgUrl": "./img/partners/project/2025_2/FER_logo_3.png",
       "linkUrl": "https://fer.unizg.hr/"
     }
+  ],
+  "medijskiPokrovitelji": [
+    {
+      "naziv": "Znatko",
+      "imgUrl": "./img/partners/project/2025_2/Znatko!.png",
+      "linkUrl": "https://znatko.com/"
+    }
   ]
 }
