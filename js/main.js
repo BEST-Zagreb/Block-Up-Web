@@ -1,7 +1,7 @@
 // Main JavaScript
 document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
-    initCountdown();
+    // initCountdown();
     initAnimations();
     initFloatingCubes();
 });

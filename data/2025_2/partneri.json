@@ -38,6 +38,11 @@
       "naziv": "FSB",
       "imgUrl": "./img/partners/project/2025_2/FSB_logo.jpg",
       "linkUrl": "https://www.fsb.unizg.hr/index.php"
+    },
+    {
+      "naziv": "SuperTeam Balkan",
+      "imgUrl":"./img/partners/project/2025_2/superTeamBalkan.png",
+      "linkUrl": "https://blkn.superteam.fun/"
     }
   ],
   "prostor": [
