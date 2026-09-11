@@ -1,5 +1,10 @@
 # Block Up Web
 
+## Hosting
+
+Live at <https://blockup.best.hr/>, served by Cloudflare Workers as static files straight from this repository.
+Every push to `main` is deployed by Workers Builds within a minute or two. The `dev` branch deploys the same way to <https://blockup.dev.best.hr/> for trying changes first.
+
 ## Wayback Machine
 
 The site runs at <https://blockup.best.hr/>. The Internet Archive's calendar for it is <https://web.archive.org/web/*/https://blockup.best.hr/*>.
